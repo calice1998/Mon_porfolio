@@ -1,0 +1,42 @@
+
+.container-porfolio {
+   margin-top: 50px;
+}
+.container-porfolio  h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 128, 68);
+}
+
+.container-porfolio  .images  img {
+    width: 300px;
+    height: 300px;
+}
+ .images-descript   P {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 20px;
+}
+.container-porfolio .images-descript .image-descript p {
+    text-align: justify;
+    color: rgb(0, 128, 68);
+    
+}
+.container-porfolio p {
+    text-align: justify;
+    font-size: 1.4rem;
+    padding: 20px;
+}
+.container-porfolio .images-descript p {
+    text-align: justify;
+    font-size: 1.4rem;
+}
+.container-porfolio .images-descript  label {
+    text-align: justify;
+    font-size: 1.4rem;
+    font-weight: bold;
+    
+}
+.container-porfolio  a{
+    color: blue;
+}

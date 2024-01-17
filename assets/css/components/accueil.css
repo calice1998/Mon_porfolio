@@ -1,0 +1,124 @@
+.images-accueil{
+    height: 100vh;
+    background-image: url(/assets/images/accueil/climbing-plant-1.png);
+    background-position-x: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.images-accueil .image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.images-accueil .description {
+    position: absolute;
+    left: 140px;
+    bottom: 180px;
+}
+.images-accueil .description nav,
+.images-accueil .description p{
+    font-size: 1.2rem;
+    color: rgb(0, 128, 68);
+}
+.images-accueil .description nav{
+    font-size: 1.8rem;
+    padding-left: 10px;
+}
+.images-accueil .image .image2-logo {
+    /* left: 540px; */
+    /* bottom: 480px; */
+    position: absolute;
+}
+.images-accueil .image .image-logo {
+    right: 300px;
+    bottom: ;
+    position: absolute;
+}
+
+
+
+/********************* MEDIA ********************/
+@media screen and (max-width: 820px) {
+    .container-nav .image img{
+       display: none;
+    }
+    .container-nav .description{
+        /* padding-top: 20px; */
+        left: 50px;
+        top: -60px;
+        position: absolute;
+    }
+    .container-nav .description nav {
+        padding-top: 0px;
+    }
+    .container-nav .image2 img{
+        height: 50px;
+        width: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        right: -700px;
+        top: 50px;
+    }
+    .container-nav .image3 img{
+        height: 50px;
+        width: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        right: 0px;
+        top: 110px;
+    }
+    .container-nav .image4 img{
+        height: 100px;
+        width: 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        right: -200px;
+        top: 80px;
+    }
+    .container-nav .description{
+        padding-top: 40px;
+        left: 50px;
+        top: 50px;
+        position: absolute;
+    }
+    .container-nav .description nav {
+        font-size: 8rem;
+        font-weight: bold;
+    }
+    .container-nav .description p {
+        font-size: 1.8rem;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container-nav .image img{
+       display: none;
+    }
+    .container-nav .description{
+        /* padding-top: 20px; */
+        left: 50px;
+        top: -60px;
+        position: absolute;
+    }
+    .container-nav .description nav {
+        padding-top: 0px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container-nav .description{
+        padding-top: 10px;
+        left: 50px;
+        top: 20px;
+        position: relative;
+    }
+}
+@media screen and (max-width: 427px) {
+  
+}
