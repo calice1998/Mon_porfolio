@@ -1,6 +1,10 @@
 :root{
-    --z-index-header: 996;
+    --z-index-header: 998;
     --z-index-container: 995;
+    --z-index-resum-banner-container: 995;
+    --z-index-container-apropos: 995;
+    --z-index-container-contact: 995;
+    --z-index-container-porfolio: 995;
     --z-index-footer: 995;
 
 }

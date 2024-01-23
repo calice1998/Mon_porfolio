@@ -1,9 +1,13 @@
 .images-accueil{
+    padding-top: 50px;
+}
+.images-accueil .image{
     height: 100vh;
-    background-image: url(/assets/images/accueil/climbing-plant-1.png);
+    background-image: url(/assets/images/accueil/image_accueil.jpg);
     background-position-x: 70%;
     background-repeat: no-repeat;
     background-size: cover;
+    /* opacity: 0.8; */
 }
 .images-accueil .image img{
     width: 200px;
@@ -20,23 +24,76 @@
 }
 .images-accueil .description nav,
 .images-accueil .description p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: rgb(0, 128, 68);
+    background-color: red;
 }
-.images-accueil .description nav{
-    font-size: 1.8rem;
-    padding-left: 10px;
+
+.images-accueil .image .texte  h1 {
+    font-size: 5rem;
+   color: rgb(0, 128, 68);
+   text-align: center;
+   padding-top: 300px;
 }
-.images-accueil .image .image2-logo {
-    /* left: 540px; */
-    /* bottom: 480px; */
-    position: absolute;
+.images-accueil .divider{
+    padding-top: 0px;
+    margin-top: 0px;
+   border: 10px solid  rgb(0, 128, 68);
 }
-.images-accueil .image .image-logo {
-    right: 300px;
-    bottom: ;
-    position: absolute;
+.image-logo .image1{
+    border: 5px solid#ccc;
 }
+.image-logo .image1 {
+    background-color: rgb(21, 61, 61);
+}
+.image-logo .image1 h3{
+    padding-top: 10px;
+    font-size: 2rem;
+    font-size: bold;
+    text-align: center;
+    color:  rgb(0, 128, 68);
+}
+.image-logo .image1 p{
+    font-size: 1.4rem;
+    text-align: justify;
+    padding: 0px 20px 0px 20px;
+    color:  rgb(0, 128, 68);
+}
+/********************* RESUM ********************************/
+.resum-banner-container{
+    background-image: url(/assets/images/accueil/emotions-3.jpg);
+    background-position-y: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.resum-descript {
+    width: 300px;
+    text-align: center;
+    /* background-color: #18583e; */
+    background-color: rgb(0, 128, 68);
+}
+
+.resum-descript-icon {
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+    border: 2px solid var(--main-color);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.resum-descript-icon i {
+    color: var(--main-color);
+    font-size: 2rem;
+}
+
+.resum-descript-title h2 {
+    font-size: 1.2rem;
+}
+
 
 
 
@@ -97,7 +154,12 @@
         font-weight: bold;
     }
 }
+
+
 @media screen and (max-width: 768px) {
+    .images-accueil{
+        padding-top: 100px;
+    }
     .container-nav .image img{
        display: none;
     }
@@ -110,15 +172,43 @@
     .container-nav .description nav {
         padding-top: 0px;
     }
+    .image-logo{
+        display: none;
+    }
+    .images-accueil .image .texte  h1 {
+        font-size: 1.8rem;
+       color: rgb(0, 128, 68);
+       text-align: center;
+       padding-top: 150px;
+    }
+    .resum-banner-container{
+        display: none;
+    }
 }
 @media screen and (max-width: 576px) {
+    .images-accueil{
+        padding-top: 570px;
+    }
     .container-nav .description{
         padding-top: 10px;
         left: 50px;
         top: 20px;
         position: relative;
     }
+    .image-logo{
+        display: none;
+    }
 }
 @media screen and (max-width: 427px) {
-  
+    .images-accueil{
+        padding-top: 500px;
+    }
+}
+@media screen and (max-width: 280px) {
+    .images-accueil{
+        padding-top: 500px;
+    }
+    .images-accueil .image img{
+        left: 50px;
+    }
 }

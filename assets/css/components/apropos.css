@@ -1,76 +1,75 @@
-.container-apropos {
-   margin: 50px;
+
+.container .container-apropos {
+   padding-top: 100px;
 }
-.container-apropos .description p{
+.container .container-apropos .info p{
    font-size: 1.8rem;
 }
-.container-apropos .description h1{
-   /* font-size: 1.8rem; */
+.container-apropos  .info  img{
+  border-radius: 50px;
+  height: 800px;
+  margin-bottom: 20px;
+}
+.container-apropos .info h2{
    color: rgb(0, 128, 68);
+   padding-top: 30px;
+}
+.container-apropos .info h1{
+   font-size: 3rem;
+   font-weight: bold;
+   color: rgb(0, 128, 68);
+   padding-top: 30px;
+   text-transform: uppercase;
+   padding-bottom: 20px;
+   text-align: center;
 }
 
 .container-apropos .content h2{
    color: rgb(0, 128, 68);
    text-align: center;
    font-size: 2rem;
+   padding-top: 50px;
+   font-weight: bold;
 }
-.container-apropos .content p{
+.container .container-apropos .content p{
    font-size: 1.8rem;
    text-align: justify;
 }
 
 /************************ MEDIA ****************************/
 
-/* @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
 
 }
 @media screen and (max-width: 768px) {
-   .container-porfolio .image{
-      display: block;
+   .container .container-apropos{
+      padding-top: 100px;
+
    }
-   .container-porfolio  .image img {
-      height: 300px;
-      width: 300px;
-  }
-  .container-porfolio .description{
-   display: block;
-  }
-  .container-porfolio  .image-descripts img{
-   height: 500px;
-   width: 300px;
-}
-.container-porfolio .description p{
-  font-size: 1.2rem;
-}
-.container-porfolio .description h1{
-  font-size: 1.4rem;
-  padding-top: 10px;
-  font-weight: bold;
-}
-.container-porfolio .content h2{
-  font-size: 1.4rem;
-  font-weight: bold;
-}
-.container-porfolio .content p{
-  font-size: 1.2rem;
-}
+  
+   .container-apropos  .info .image-descripts {
+     display: block;
+   }
+   .container-apropos  .info .image-descripts img {
+     display: block;
+     height: 500px;
+   }
+   .container .container-apropos .info h1{
+      font-size: 1.8rem;
+   }
+
 }
 @media screen and (max-width: 576px) {
-   .container-porfolio  .image-descripts img{
-      height: 600px;
-      width: 480px;
+   .container .container-apropos{
+      padding-top: 500px;
+
    }
 }
 @media screen and (max-width: 427px) {
-   .container{
-      
-   }
+  
   
 } 
 @media screen and (max-width: 280px) {
-   .container-porfolio  .image-descripts img{
-      height: 300px;
-      width: 200px;
-   }
+   
   
-}  */
+} 
