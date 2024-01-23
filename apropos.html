@@ -15,83 +15,68 @@
 </head>
 
 <body>
-  <header class="box">
-    <nav class="navbar navbar-expand-lg bg-body-">
-      <div class="container-fluid">
-        <a class="navbar-brand active" href="/accueil.html">Accueil</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/porfolio.html">Porfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/apropos.html">APropos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/competences.html">Compétences</a>
-            </li>
-            <!-- <div class="nav-item">
-                    <a class="dropdown-toggle nav-link" href="#"  data-bs-toggle="dropdown" aria-expanded="false">
-                      Compétences
-                    </a>
-                  
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Entreprenariat</a></li>
-                      <li><a class="dropdown-item" href="#">Marketing</a></li>
-                      <li><a class="dropdown-item" href="#">Comptabilité</a></li>
-                      <li><a class="dropdown-item" href="#">InDesign</a></li>
-                      <li><a class="dropdown-item" href="#">Photoshop</a></li>
-                      <li><a class="dropdown-item" href="#">Développement Web</a></li>
-                    </ul>
-                  </div> -->
-            <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+  <header class="box" >
+    <nav id="menu">
+      <ul class="unlisted flex gap-20 jcc bold">
+          <li class="nav-item">
+              <a href="/accueil.html" class="p-20 block ">Accueil</a>
+          </li>
+          <li class="nav-item">
+              <a href="/porfolio.html" class="dropdown p-20 block relative ">Porfolio</a>
+          </li>
+          <li class="nav-item">
+              <a href="/apropos.html" class="dropdown p-20 block relative">A Propos</a>
+          </li>
+          <li class="nav-item">
+              <a href="/competences.html" class="dropdown p-20 block">Compétences</a>
+          </li>
+          <li class="nav-item">
+              <a href="/contact.html" class="p-20 block">Contact</a>
+          </li>
+      </ul>
     </nav>
   </header>
-
-  <div class="container-apropos">
-    <div class="description flex gap-20">
-      <div class="image-descripts jcc">
-        <img src="/assets/images/accueil/calice_pro.jpg" class="img-fluid" alt="...">
-      </div>
+  <div class="container">
+    <div class="container-apropos">
       <div class="info">
-        <h1>Hodjiadoum Calice</h1>
+        <h1>Tout ce qui me concerne se trouve dans cette page</h1>
+        <div class="image-descripts flex jcc gap-20 ">
+          <img src="/assets/images/accueil/calice_pro.jpg" class="img-fluid box" alt="...">
+          <img src="/assets/images/competences/Developper_3.jpg" class="img-fluid box" alt="...">
+        </div>
+        <h2>Hodjiadoum Calice</h2>
         <p>Date et lieu de naissance: 10/06/1998 à N'djamena</p>
         <p>Nationalité: tchadiennne</p>
         <p>Situation matrimoniale: marié</p>
         <p>Fonction: étudiant</p>
         <p>Diplôme le plus élévé: licence</p>
         <p>Pays et ville actuelle: N'djamen/Tchad</p>
-      </div>
-    </div>
+        <div class="content">
+          <h2>A Propos</h2>
+          <p>
+            J’ai suivi mes études à N’Djamena en obtenant des diplômes : Brevet d’Etude du Première Cycle en 2014 à
+            N’Djamena (Tchad), Baccalauréat série G2 en 2017 à Moundou (Tchad) puis une Licence en sciences et techniques de
+            gestions à l’université de Ngaoundéré/ Cameroun 2020.
+            Après l’obtention de mes diplômes, plusieurs années à la recherche de boulots sans suite, je me suis consacré à
+            suivre les formations payantes en ligne et en présentiel : entreprenariat, gestion des projets, eau hygiène et
+            assainissement, technique d’enquêtes et superviseur d’enquêtes, nutrition et sécurité alimentaire, Anglais, les
+            outils de collectes de données toutes sanctionnées par une attestation.
     
-    <div class="content">
-      <h2>A Propos</h2>
-      <p>
-        J’ai suivi mes études à N’Djamena en obtenant des diplômes : Brevet d’Etude du Première Cycle en 2014 à
-        N’Djamena (Tchad), Baccalauréat série G2 en 2017 à Moundou (Tchad) puis une Licence en sciences et techniques de
-        gestions à l’université de Ngaoundéré/ Cameroun 2020.
-        Après l’obtention de mes diplômes, plusieurs années à la recherche de boulots sans suite, je me suis consacré à
-        suivre les formations payantes en ligne et en présentiel : entreprenariat, gestion des projets, eau hygiène et
-        assainissement, technique d’enquêtes et superviseur d’enquêtes, nutrition et sécurité alimentaire, Anglais, les
-        outils de collectes de données toutes sanctionnées par une attestation.
-
-
-      </p>
+    
+          </p>
+        </div>
+      </div>
+      <div class="description flex gap-20">
+        
+      </div>
+      
     </div>
+
   </div>
 
 
   <footer>
-    <div>2024 Hodjiadoum porfolio</div>
+    <h2>2024 Hodjiadoum porfolio</h2>
     <p>Interdiction à la republication ou copie. Tous les droits sont réservés.</p>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

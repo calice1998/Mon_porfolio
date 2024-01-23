@@ -1,45 +1,50 @@
 /************** COMPETENCES ******************************/
-.container-competences footer{
-    color: white;
-    text-align: center;
-    padding-top: 30px;
-
+.container-competences{
+    padding-top: 100px;
 }
 .container-competences h1{
+    font-size: 3rem;
     font-weight: bold;
     padding-top: 30px;
     color:  rgb(0, 128, 68);
     text-align: center;
+    text-transform: uppercase;
 }
 .container-competences .position-relative p{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     padding: 20px;
     text-align: justify;
 }
-.container-competences .position-relative{
-    margin-bottom: 50px;
-}
+
 .container-competences .row .btn{
     background-color: rgb(0, 128, 68);
     color: white;
 }
 
-
-
+/********************* IMAGE ************************/
+.container-competences .position-relative .image{
+    margin-bottom: 50px;
+}
 
 .container-competences .images .image img{
     width: 700px;
     height: 500px;
+    border: 2px solid rgb(0, 128, 68);
 }
 .container-competences .blog-item .blog-image .images img{
     height: 600px;
     width: 500px;
 }
-.container-competences .blog-item .blog-image .images footer{
-   background-color: rgb(0, 128, 68);
-   color: white;
-   padding-top: 30px;
-   text-align: center;
+/******************* FOOTER **************/
+.container-competences .position-relative  .images footer{
+    height: 100px;
+}
+.container-competences .position-relative  .images footer h2{
+    font-size: 1.8rem;
+}
+/********************* BLOG ITEM *****************************/
+.container-competences .blog-item .resum-compet h1 {
+   font-size: 2em;
 }
 
 .container-competences .blog-item .blog-image .images .title h2{
@@ -49,7 +54,7 @@
     margin-bottom: 50px;
 }
 .container-competences .blog-item  p{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     padding: 20px;
     text-align: justify;
 }
@@ -58,6 +63,13 @@
 
 
 @media screen and (max-width: 768px){
+    .container-competences{
+        padding-top: 100px;
+    }
+    .container-competences h1{
+        font-size: 2rem;
+    }
+    /****************** IMAGE ***********************/
     .container-competences .blog-item .blog-image{
         flex-wrap: wrap;
     }
@@ -72,11 +84,20 @@
     .container-competences .blog-item .blog-image .images img{
         height: 350px;
         width: 300px;
+        
     }
-    
-    .container-competences .blog-item .blog-image .images footer h2{
-        text-align: center;
-        font-size: 1.8rem;
+    /* .container-competences .image img{
+        width: 500px;
+        height: 300px;
+    } */
+    /*************************** FOOTER **************************/
+    .container-competences .position-relative  .images footer{
+        height: 70px;
+        /* width: 500px; */
+    }
+    .container-competences .position-relative  .images footer h2{
+        font-size: 1.1rem;
+        padding-bottom: 80px;
     }
      .container-competences .blog-item  p{
         margin-top: 50px;
@@ -86,13 +107,16 @@
         font-size: 1.8rem;
         top: -100px;
     }
-    .container-competences .image img{
-        width: 500px;
-        height: 300px;
+    
+    .container-competences .blog-item .description {
+        display: block;
     }
     
 }
 @media screen and (max-width: 540px){
+    .container-competences{
+        padding-top: 500px;
+    }
     .container-competences .blog-item .blog-image{
         flex-wrap: wrap;
     }

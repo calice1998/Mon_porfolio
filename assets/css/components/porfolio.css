@@ -1,8 +1,18 @@
 
 .container-porfolio {
-   margin-top: 50px;
+    padding-top: 130px
 }
+
 .container-porfolio  h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 128, 68);
+}
+.container-porfolio  h2{
+    font-size: 2rem;
+    font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     color: rgb(0, 128, 68);
@@ -10,12 +20,11 @@
 
 .container-porfolio  .images  img {
     width: 300px;
-    height: 300px;
+    height: 350px;
 }
  .images-descript   P {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: justify;
-    padding: 20px;
 }
 .container-porfolio .images-descript .image-descript p {
     text-align: justify;
@@ -39,4 +48,21 @@
 }
 .container-porfolio  a{
     color: blue;
+}
+
+@media screen and (max-width: 768px) {
+    .container-porfolio {
+        padding-top: 130px
+    }
+    
+    
+    .container-porfolio  h1{
+        font-size: 1.8rem;
+    }
+    
+}
+@media screen and (max-width: 540px) {
+    .container-porfolio{
+        padding-top: 530px;
+    }
 }
