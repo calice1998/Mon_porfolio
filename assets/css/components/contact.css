@@ -91,10 +91,10 @@
     padding-left: 10px;
     
 }
-.second-section-us .form-row div i:hover{
+/* .second-section-us .form-row div i:hover{
     color: rgb(0, 128, 68);
     
-}
+} */
 .second-section-us .btn{
     background-color: rgb(0, 128, 68);
     color: white;
@@ -118,7 +118,7 @@
     top: 50px;
 }
 .icons i:hover{
-    color: rgb(0, 128, 68);
+    color: rgb(15, 201, 114);
 
 }
 .icons p{

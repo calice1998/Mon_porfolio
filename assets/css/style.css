@@ -131,7 +131,7 @@ footer div, footer P{
 }
 footer h2{
     color: white;
-    /* font-size: 1.8rem; */
+    font-size: 1.4rem;
     font-weight: bold;
     padding-top: 30px;
     text-align: center;
@@ -140,6 +140,10 @@ footer{
     position: relative;
     bottom: 10px;
     z-index: var(--z-index-footer);
+}
+footer .icons i{
+    color: white;
+
 }
 
 
